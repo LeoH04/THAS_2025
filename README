@@ -1,1 +1,12 @@
-This is the repo of our THAS!
+# AIDAHO IDS THAS 2025
+
+This repository contains the take-home assignment for the **AI & Data Science Certificate Hohenheim (AIDAHO)**.  
+It focuses on **Automatic Identification System (AIS) data** using PostgreSQL/TimescaleDB, R, and Shiny.  
+
+Key components:
+- Querying AIS vessel data via a PostgREST API  
+- Sampling and visualizing AIS points with Leaflet  
+- Forecasting vessel positions and evaluating prediction accuracy  
+- Building a static dashboard and deploying a Shiny app with Docker + NGINX  
+
+Deliverables include R scripts, sampled data, visualizations, a Shiny app, and a final report.  
