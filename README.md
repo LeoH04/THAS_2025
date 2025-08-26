@@ -1,7 +1,6 @@
 # 🚢 AIS Data Science – THAS 2025  
 
-This repository contains the implementation of the **Take-Home Assignment (THAS) 2025** for the *AI & Data Science Certificate Hohenheim (AIDAHO)*.  
-It focuses on analyzing and forecasting **Automatic Identification System (AIS) vessel data** using R, PostgreSQL/TimescaleDB, and Shiny.  
+This repository contains the implementation of the **Take-Home Assignment (THAS) 2025** for the *AI & Data Science Certificate Hohenheim (AIDAHO)*. It is part of the *Introduction to Data Science with R and RStudio* course (University of Hohenheim, Dr. Johannes Bleher). It focuses on analyzing and forecasting **Automatic Identification System (AIS) vessel data** using R, PostgreSQL/TimescaleDB, and Shiny.  
 
 ---
 
