@@ -1,0 +1,17 @@
+stages:
+  - deploy
+
+deploy_to_server:
+  stage: deploy
+  only:
+    - main
+  script:
+    - 'which ssh-agent || ( apk update && apk add openssh )'
+    - eval $(ssh-agent -s)
+    - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+    - mkdir -p ~/.ssh
+    - chmod 700 ~/.ssh
+    - ssh-keyscan 193.197.230.68 >> ~/.ssh/known_hosts
+    - ssh ids_student11@193.197.230.68 '/home/ids_student11/git/AIDAHO_THAS_2025/deploy.sh'
+
+
